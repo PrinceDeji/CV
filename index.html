@@ -1,58 +1,169 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
-<head>
-  <meta charset="utf-8">
-  <title>Ayodeji Shittu</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" href="favicon.ico">
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
-</head>
-
-<body>
-  <div class="top-container">
-    <img class="top-cloud" src="images/cloud.png" alt="cloud image">
-    <h1>I'm Deji.</h1>
-    <h2>a programmer.</h2>
-    <img class="bottom-cloud" src="images/cloud.png" alt="cloud image">
-    <img src="images/mountain.png" alt="mountain image">
-  </div>
-  <div class="middle-container">
-    <div class="profile">
-      <img class="my-image" src="images/ayodeji.jpeg" alt="my profile picture">
-      <h2>Hello.</h2>
-      <p class="intro">Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ayodeji Shittu</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Ayodeji Shittu</h1>
+        <p class="fullstack">Full Stack Web Developer</p>
+        <h2>Personal Info</h2>
+        <h3>Phone</h3>
+        <p class="info">0178 6988993</p>
+        <h3>E-mail</h3>
+        <p class="info">shittuwasiuayodeji@gmail.com</p>
+        <h3>GitHub</h3>
+        <p>github.com/ShittuAyodeji</p>
+        <h2>Skills and Tools</h2>
+        <h3 class="frontback">Frontend</h3>
+        <p>HTML</p>
+        <progress id="file" max="100" value="100"></progress>
+        <p>CSS</p>
+        <progress id="file" max="100" value="100"></progress>
+        <p>JavaScript</p>
+        <progress id="file" max="100" value="100"></progress>
+        <p>Bootstrap</p>
+        <progress id="file" max="100" value="80"></progress>
+        <p>React</p>
+        <progress id="file" max="100" value="80"></progress>
+        <p>Node.js</p>
+        <progress id="file" max="100" value="70"></progress>
+        <h3 class="frontback">Backend</h3>
+        <p>Python/Django</p>
+        <progress id="file" max="100" value="85"></progress>
+        <p>Express</p>
+        <progress id="file" max="100" value="70"></progress>
+        <p>MongoDB</p>
+        <progress id="file" max="100" value="70"></progress>
+        <p>PHP</p>
+        <progress id="file" max="100" value="70"></progress>
+        <h2>Languages</h2>
+        <p>English (Native)</p>
+        <p>German (A2)</p>
+        <p>Russian (Intermediate)</p>
+      </header>
+      <article>
+        <p>
+          Full stack web developer with 7+ years of experience in designing and
+          developing user interfaces, testing, debugging and training staff
+          within eCommerce technologies. Proven ability in optimizing web
+          functionalities that improve data retrieval and workflow effeciencies.
+        </p>
+        <h2>Work Experience</h2>
+        <div class="flex-container">
+          <h3>Lead Developer</h3>
+          <h4>VFD Group, Nigeria</h4>
+        </div>
+        <p class="date">2017 - Present</p>
+        <h4>My Responsibilties:</h4>
+        <ul class="date">
+          <li>
+            I oversee junior web developers and evaluate their performance.
+          </li>
+          <li>Write and review code for various applications.</li>
+          <li>
+            Prioritize software development projects, set timelines and assign
+            tasks to team members.
+          </li>
+          <li>
+            Liaise with designers to decide on UI/UX elements (like graphics and
+            navigation buttons).
+          </li>
+        </ul>
+        <h4>Technologies Used:</h4>
+        <div class="date">
+          <button>HTML/CSS</button>
+          <button>Python</button>
+          <button>JavaScript</button>
+          <button>Django</button>
+          <button>NodeJS</button>
+          <button>MongoDB</button>
+        </div>
+        <div class="flex-container">
+          <h3>Frontend Developer</h3>
+          <h4>MTN Group, Nigeria</h4>
+        </div>
+        <p class="date">2014 - 2017</p>
+        <h4>My Responsibilties:</h4>
+        <ul class="date">
+          <li>
+            Used HTML, JavaScript and CSS knowledge to bring concepts to life.
+          </li>
+          <li>
+            Created tools that improve site interaction regardless of the
+            browser.
+          </li>
+          <li>Fixed bugs and tested for usability.</li>
+          <li>Implemented design on mobile websites.</li>
+        </ul>
+        <h4>Technologies Used:</h4>
+        <button>HTML/CSS</button>
+        <button>JavaScript</button>
+        <button>Bootstrap</button>
+        <button class="date">React</button>
+        <div class="flex-container">
+          <h3>Web Developer (Intern)</h3>
+          <h4>Yandex, Russia</h4>
+        </div>
+        <p class="date">2011 - 2014</p>
+        <h4>My Responsibilties:</h4>
+        <ul class="date">
+          <li>
+            I assisted in creating website layout/user interface by using
+            standard HTML/CSS practices.
+          </li>
+          <li>
+            Assisted in integrating data from various back-end services and
+            databases.
+          </li>
+          <li>
+            Assisted in writing well designed, testable, efficient code by using
+            best software development practices.
+          </li>
+        </ul>
+        <h4>Technologies Used:</h4>
+        <button>HTML/CSS</button>
+        <button>PHP</button>
+        <button>jQuery</button>
+        <button>MySQL</button>
+        <h2>Education</h2>
+        <div class="flex-container">
+          <h3>MSc in Autonomous Systems</h3>
+          <h4>Bonn Rhein Sieg University of Applied Sciences</h4>
+        </div>
+        <p class="date">2019 - Present</p>
+        <h4>Relevant Coursework:</h4>
+        <ul class="date">
+          <li>Introduction to Artificial Intelligence</li>
+          <li>Software Development (Project)</li>
+          <li>Advanced Control</li>
+        </ul>
+        <div class="flex-container">
+          <h3>BSc Informatics and Computer Engineering</h3>
+          <h4>Moscow Power Engineering Institute</h4>
+        </div>
+        <p class="date">2010 - 2014</p>
+        <h4>Relevant Coursework:</h4>
+        <ul>
+          <li>Web application with PHP and MySQL</li>
+          <li>Programming Technology</li>
+          <li>Databases</li>
+        </ul>
+        <h2>Interests</h2>
+        <ul>
+          <li>Cooking</li>
+          <li>Bikiing</li>
+          <li>Gaming</li>
+        </ul>
+      </article>
     </div>
-    <hr>
-    <div class="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <img class="skill-image" src="images/skills.png" alt="skills">
-        <h3>Lorem & Ipsum</h3>
-        <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
-      </div>
-      <div class="skill-row">
-        <img class="hobby-image" src="images/hobby.png" alt="hobby">
-        <h3>Lorem Ipsum Dolor</h3>
-        <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
-      </div>
-    </div>
-    <hr>
-    <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-      <p class="contact-message">Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
-      <a class="btn" href="mailto:deajay4life@gmail.com">CONTACT ME</a>
-    </div>
-  </div>
-
-
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-    <a class="footer-link" href="https://twitter.com/">Twitter</a>
-    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-    <p class="copyright">© 2021 Ayodeji Shittu.</p>
-  </div>
-</body>
-
+  </body>
 </html>
